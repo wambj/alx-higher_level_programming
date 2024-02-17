@@ -6,7 +6,7 @@
  * @number: The number to insert
  * Return; 0 if the pointer fails or pointer to the new node
  */
-listint_ *insert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new;
 
