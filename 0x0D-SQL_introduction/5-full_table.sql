@@ -1,2 +1,2 @@
--- describes the table
-DESCRIBE TABLE first_table
+-- describes the tables
+SHOW CREATE TABLE first_table;
